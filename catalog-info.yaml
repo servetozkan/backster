@@ -6,5 +6,12 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: stagecentral
+  owner: perfectscale
   system: backstage-workshop
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: backstage-workshop
+spec:
+  owner: guests
